@@ -43,7 +43,7 @@ To view this portfolio locally:
 Feel free to reach out for collaborations or opportunities:
 
 - **GitHub**: [@akshayremeshp](https://github.com/akshayremeshp)
-- **Portfolio**: [akshayremesh.github.io](https://akshayremeshp.github.io](https://akshayremeshp.github.io/akshayremesh.github.io/)
+- **Portfolio**: [akshayremesh.github.io](https://akshayremeshp.github.io/akshayremesh.github.io/)
 
 ---
 
