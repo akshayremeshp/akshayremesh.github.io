@@ -39,9 +39,10 @@ Welcome to my **interactive professional portfolio**! This website showcases my 
 ## 🎯 **What You'll Find**
 
 📌 **Professional Experience** – My journey in business development and CRM  
-📌 **Live Projects** – Real-world examples of my work  
+📌 **Technical Projects** – Showcasing web development skills  
 📌 **Certifications** – Industry-recognized credentials  
-📌 **Contact & Social Links** – Connect with me directly
+📌 **Resume Download** – One-click access to my latest CV  
+📌 **Direct Contact** – Seamless ways to connect
 
 ---
 
@@ -79,6 +80,8 @@ Welcome to my **interactive professional portfolio**! This website showcases my 
 5. **Access Your Site**
    - GitHub Pages URL: `https://yourusername.github.io`
    - Custom domain: `https://yourdomain.com`
+
+6. **✅ Your website is now deployed and live at https://akshayremeshp.github.io. Share this link to showcase your work!**
 
 ---
 
