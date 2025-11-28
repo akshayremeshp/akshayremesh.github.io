@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshay Remesh | CRM Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Hamburger Navigation -->
+  <nav class="navbar">
+    <button class="nav-toggle" aria-label="menu"><i class="fas fa-bars"></i></button>
+    <div class="nav-brand">AKSHAY</div>
+    <div class="nav-drawer-bg"></div>
+    <div class="nav-drawer" id="navDrawer">
+      <button class="nav-close" aria-label="close"><i class="fas fa-times"></i></button>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#inspiration">Inspiration</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <canvas id="star-canvas"></canvas>
+    <h3 class="hero-hello">BUSINESS MEETS INNOVATION</h3>
+    <h1 class="hero-name">I'm Akshay Remesh</h1>
+  <div class="hero-roles">
+  <span id="hero-role">Technical Support Engineer</span>
+      <span class="role-divider">|</span>
+      <span id="hero-role2">CRM Specialist</span>
+      <span class="role-divider">|</span>
+      <span id="hero-role3">Community Lead</span>
+    </div>
+    <button class="hero-btn" onclick="scrollToSection('about')">MORE ABOUT ME <i class="fas fa-chevron-down"></i></button>
+    <div class="hero-social">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About</h2>
+    <p class="about-subtitle">LET ME INTRODUCE MYSELF</p>
+    <div class="about-main">
+      <div class="about-img-wrap">
+        <img src="assets/Akshayremesh.jpg" alt="Akshay Remesh" class="about-photo">
+      </div>
+      <p class="about-bio">
+        I am a Technical Support Engineer at <span class="work-company-main">EthicFin Software</span>, a fintech software company, where I provide product support, troubleshoot integrations, and assist customers during onboarding to our financial SaaS platforms.<br>
+        I collaborate closely with engineering and product teams to reproduce issues, propose fixes, and improve documentation and onboarding flows to reduce time-to-resolution and increase customer satisfaction.<br>
+        Previously, I worked in business development specializing in SaaS at <span class="work-company-main">Nurture CRM</span>, Bengaluru, and as a Business Development Executive at <span class="work-company-main">Telestation Pvt Ltd</span>, UAE.<br>
+        I bring strong CRM and ERP domain knowledge, client-management experience, and a customer-first mindset focused on successful product adoption and retention.<br>
+        I'm passionate about professional networking, continuous learning, teamwork, and building long-term customer relationships.
+      </p>
+    </div>
+    <div class="about-details">
+      <div class="profile-col">
+        <h3>PROFILE</h3>
+        <div class="profile-item"><strong>Name:</strong> Akshay Remesh P</div>
+        <div class="profile-item"><strong>Location:</strong>Kozhikode ,Kerala , India</div>
+        <div class="profile-item"><strong>Email:</strong> akshayremeshp17@gmail.com</div>
+        <div class="profile-item"><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/akshayremesh-p</a></div>
+      </div>
+      <div class="vertical-divider"></div>
+      <div class="work-col">
+        <h3>VOLUNTEER & WORK</h3>
+        <div class="work-item">
+          <strong>Technical Support Engineer</strong><br>
+          <span class="work-company">EthicFin </span>
+        </div>
+         <div class="work-item">
+          <strong>Business Development Executive SaaS</strong><br>
+          <span class="work-company">Nurture CRM</span>
+        </div>
+        <div class="work-item">
+          <strong>Business Development Executive</strong><br>
+          <span class="work-company">Telestation Pvt Ltd</span>
+        </div>
+        <div class="work-item">
+          <strong>Technical Coordinator</strong><br>
+          <span class="work-company">IEEE MDIT SB (Community)</span>
+        </div>
+        <div class="work-item">
+          <strong>Vice Chairperson</strong><br>
+          <span class="work-company">SPS MDIT (Community)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration" class="inspiration-section">
+    <h2>Inspiration</h2>
+    <p class="inspiration-subtitle">M.A. Yusuff Ali, Lulu Group Founder</p>
+    <div class="inspiration-flex">
+      <div class="inspiration-img-wrap">
+        <img src="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/68b307b6-830d-58b9-9bc3-019a81b488ad/4f9e0e74-602a-5fe3-bec0-dee817566756.jpg" alt="Yusuff Ali" class="inspiration-photo">
+      </div>
+      <div class="inspiration-text">
+        <span class="inspiration-name">M.A. Yusuff Ali</span> is the visionary founder of Lulu Group International, who revolutionized retail across the Middle East and India. From humble beginnings in Kerala, he has built one of the world's largest retail empires with over 65,000 employees. His leadership inspires me to pursue excellence and create impact.
+        <a class="know-more-btn" href="https://en.wikipedia.org/wiki/M._A._Yusuff_Ali" target="_blank">KNOW MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Timeline Section -->
+  <section id="resume" class="timeline-section">
+    <h2>Resume</h2>
+    <p class="timeline-title">Honours, Projects & Works</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-award"></i></div>
+        <div>
+          <h3>CRM Management Certification</h3>
+          <span class="timeline-date">2024</span>
+          <p>Completed advanced certification in CRM management, SaaS tools, and conversion strategies for new business clients.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+        <div>
+          <h3>Business Development Success</h3>
+          <span class="timeline-date">2025</span>
+          <p>Awarded for top client retention and persuasive revenue campaigns at Nurture CRM and Telestation Pvt Ltd.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-user-friends"></i></div>
+        <div>
+          <h3>IEEE MDIT Leadership</h3>
+          <span class="timeline-date">2023</span>
+          <p>Led technical events and contributed as a community coordinator, expanding team engagement and technical awareness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline Section -->
+  <section id="education" class="timeline-section">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div>
+          <h3>BTech – Computer Science and Engineering</h3>
+          <span class="timeline-date">MDIT College of Engineering , 2020-2024 </span>
+          <p>Graduated with a degree in Computer Science, developing strong technical and leadership skills.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div>
+          <h3>Higher Secondary (Science)</h3>
+          <span class="timeline-date">Zamorins HSS, 2018-2020</span>
+          <p>Completed Higher Secondary Education in Computer Science with top analytical scores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact/Footer Section -->
+  <footer id="contact" class="footer-section">
+    <div class="footer-contact">
+      <i class="fas fa-envelope fa-3x"></i>
+      <p class="footer-label">EMAIL ME AT</p>
+      <a href="mailto:akshayremeshp17@gmail.com" class="footer-email">akshayremeshp17@gmail.com</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/1BAwc6Synf/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com/akshayremeshp" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://x.com/akshaypremesh?t=8x97kFANHre04wp0zS39FQ&s=08" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/akshay-remesh-p-583a6a214" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/aksh4yremesh?igsh=M2xheWc2cGF4cXpr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="copyright">© Copyright Akshay Remesh P[2025].</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
